@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Axel Salazar - Campus Map</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&amp;callback=initMap" defer></script>
+  </head>
+  <body class="campus">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="page3.html">Future Career</a></li>
+        <li><a href="map.html" aria-current="page">Campus Map</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Explore Illinois Tech</h1>
+      <p>My university in Chicago, Illinois.</p>
+    </header>
+    <main>
+      <section>
+        <h2>Mies Campus</h2>
+        <p>Click the campus marker to learn more. The shaded circle highlights the surrounding campus area.</p>
+        <div id="map" aria-label="Interactive map of Illinois Tech"></div>
+        <p>Illinois Institute of Technology, 10 W 35th Street, Chicago, IL.</p>
+        <button id="questions" type="button">Questions</button>
+      </section>
+    </main>
+    <footer>Axel Salazar | Illinois Tech</footer>
+  </body>
+</html>
